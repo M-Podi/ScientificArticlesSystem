@@ -1,0 +1,77 @@
+/* Center container and set full page height */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: 0 auto;
+}
+
+.header-text {
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Background container fills entire page */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.input {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.title-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title-container h1 {
+    font-size: 48px;
+    color: #000;
+    margin: 0;
+}
+
+.title-container h2 {
+    font-size: 24px;
+    color: #444;
+    margin-top: 5px;
+}

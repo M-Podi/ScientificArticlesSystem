@@ -1,0 +1,113 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Page container */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styles */
+h1, h2 {
+  font-weight: bold;
+  color: #222;
+  margin: 20px 0;
+}
+
+/* Sub-header or description text */
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Button styles */
+button, .button {
+  background-color: #1f3b77;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 10px 0;
+  width: auto;
+}
+button:hover {
+  background-color: #2a4a91;
+}
+
+/* Input fields */
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+input:focus {
+  border-color: #888;
+}
+
+/* Card or box styling */
+.card {
+  background: #fff;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Linking cards together */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Register and login button spacing */
+.card button, .card .button {
+  margin: 10px auto;
+  display: inline-block;
+}
+
+/* For header alignment */
+.header-text {
+  margin-top: 10px;
+  color: #444;
+}
+
+/* Highlighted text with background */
+.text-highlight {
+  background-color: #1f3b77;
+  color: white;
+  font-size: 12px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%;
+  }
+}
